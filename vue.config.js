@@ -12,7 +12,8 @@ module.exports = defineConfig({
         name: "stores",
         filename: "remoteEntry.js",
         remotes: {
-          areas: "areas@http://localhost:8090/remoteEntry.js",
+          // areas: "areas@http://localhost:8090/remoteEntry.js",
+          areas: "areas@hhttps://areas.netlify.app/remoteEntry.js",
         },
         exposes: {
           "./About": "./src/pages/AboutView",
