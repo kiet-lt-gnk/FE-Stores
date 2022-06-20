@@ -13,7 +13,8 @@ module.exports = defineConfig({
         filename: "remoteEntry.js",
         remotes: {
           // areas: "areas@http://localhost:8090/remoteEntry.js",
-          areas: "areas@https://areas.netlify.app/remoteEntry.js",
+          // areas: "areas@https://areas.netlify.app/remoteEntry.js",
+          areas: "areas@https://d16b547fhdixqa.cloudfront.net/remoteEntry.js",
         },
         exposes: {
           "./About": "./src/pages/AboutView",
